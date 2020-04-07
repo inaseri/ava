@@ -1,0 +1,60 @@
+body {
+  font-family: Vazir;
+  font-size: 13px;
+}
+
+.header {
+  overflow: hidden;
+  background: linear-gradient(180deg, #DE6832 6.77%, rgba(255, 255, 255, 0) 6.78%), linear-gradient(180deg, #FCF376 0%, rgba(255, 255, 255, 0) 66.57%), #F9E14D;
+  padding: 20px 10px;
+}
+
+.header-search {
+  width: 15%;
+  height: 30px;
+  border-radius: 50px;
+  float: left;
+}
+
+.today {
+  overflow: hidden;
+  background: linear-gradient(180deg, #FFFFFF 10.71%, rgba(255, 255, 255, 0) 12.29%), #050179;
+  padding: 0px 10px;
+  text-align: right;
+  color: white;
+}
+
+.right-text-header {margin-top: 10px;}
+
+.menu {background-color: #FBF375;}
+
+.active-menu {
+  background: #FCF375;
+  text-align: center;
+  color: blue;
+}
+
+.none-active-menu {
+  background: #05017A;
+  text-align: center;
+  color: white;
+}
+a {color: white;}
+
+
+@font-face {
+  font-family: Vazir;
+  src: url(/fonts/Vazir.woff);
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
