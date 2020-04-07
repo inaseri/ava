@@ -27,7 +27,6 @@ body {
 
 li {
   display: inline-block;
-  /**display: inline;*/
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
