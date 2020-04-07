@@ -24,6 +24,17 @@ body {
   color: white;
 }
 
+
+li {
+  display: inline-block;
+  /**display: inline;*/
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  font-size: 15px;
+}
+
 .right-text-header {margin-top: 10px;}
 
 .menu {background-color: #FBF375;}
@@ -39,12 +50,13 @@ body {
   text-align: center;
   color: white;
 }
+
 a {color: white;}
 
 
 @font-face {
   font-family: Vazir;
-  src: url(/fonts/Vazir.woff);
+  src: url(../fonts/Vazir.woff);
 }
 
 
