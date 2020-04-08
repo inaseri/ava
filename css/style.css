@@ -30,3 +30,17 @@ body {
   left: 0px;
   color: white;
 }
+
+.ul-style-list {
+  list-style: none;
+}
+
+.custom-nav-bottom-menu-li {
+  display: inline-flex;
+  color: #FFFFFF;
+}
+
+.active-menu {
+  background-color: #F9E14D;
+  color: #050179;
+}
