@@ -83,6 +83,13 @@ h6 {
   height: 110px;
 }
 
+.w-25-side {
+  right: 0px;
+  float: right;
+  height: 50px;
+  width: 25%;
+}
+
 a {
   color: black;
 }
@@ -95,4 +102,11 @@ a {
   margin-right: 10px;
   text-align: right;
   direction: rtl;
+}
+
+.social-style-side {
+  list-style: none;
+  text-align: right;
+  right: 0px;
+  display: contents;
 }
