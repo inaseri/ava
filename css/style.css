@@ -156,7 +156,7 @@ a {
 .number-out-right-p {
     float: right;
     color: red;
-    margin-top: -10px;
+    margin-top: -5px;
     margin-left: -10px;
     font-size: 25px;
 }
@@ -175,7 +175,7 @@ a {
 .number-out-left-p {
     float: left;
     color: red;
-    margin-top: -10px;
+    margin-top: -5px;
     font-size: 25px;
 }
 
@@ -185,6 +185,14 @@ a {
     float: left;
 }
 
+.footer-custom {
+  background-color: #050179;
+  color: white;
+}
+
+.li-footer {
+  color: white;
+}
 
 
 ol {
