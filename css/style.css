@@ -16,6 +16,14 @@ h6 {
   text-align: right;
 }
 
+ul {
+    padding-right: 16px;
+}
+
+.card {
+    margin: 5px;
+}
+
 .custom-nav-top-menu {
   background: linear-gradient(180deg, #FFFFFF 9.38%, rgba(255, 255, 255, 0) 11.46%), linear-gradient(180deg, rgba(255, 255, 255, 0) 90.69%, #FFFFFF 90.7%, #FFFFFF 100%), #050179;
 }
@@ -84,7 +92,8 @@ h6 {
 }
 
 .w-25-side {
-  right: 0px;
+  padding-bottom: 10px;
+    padding-left: 10px;
   float: right;
   height: 50px;
   width: 25%;
@@ -147,42 +156,48 @@ a {
     opacity: .5;
     direction: rtl;
 }
-
-.number-out {
-    margin-right: -30px;
-    overflow: hidden;
+.carousel {
+  position: relative;
+}
+.carousel-item img {
+  object-fit: cover;
+}
+#carousel-thumbs {
+  background: rgba(255,255,255,.3);
+  bottom: 0;
+  left: 0;
+  padding: 0 50px;
+  right: 0;
 }
 
-.number-out-right-p {
-    float: right;
-    color: red;
-    margin-top: -5px;
-    margin-left: -10px;
-    font-size: 25px;
+#carousel-thumbs img {
+  border: 5px solid transparent;
+  cursor: pointer;
 }
-
-.number-out-right-hr {
-    width: 10%;
-    background: black;
-    float: right;
+#carousel-thumbs img:hover {
+  border-color: rgba(255,255,255,.3);
 }
-
-.number-out-left {
-    margin-right: -30px;
-    overflow: hidden;
+#carousel-thumbs .selected img {
+  border-color: #fff;
 }
-
-.number-out-left-p {
-    float: left;
-    color: red;
-    margin-top: -5px;
-    font-size: 25px;
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
 }
-
-.number-out-left-hr {
-    width: 10%;
-    background: black;
-    float: left;
+@media all and (max-width: 767px) {
+  .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+  }
+}
+@media all and (min-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    position: absolute;
+  }
+}
+@media all and (max-width: 576px) {
+  .carousel-container #carousel-thumbs {
+    background: #ccccce;
+  }
 }
 
 .footer-custom {
@@ -210,5 +225,8 @@ ol {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 0px;
+    padding: 10px;
 }
+
+
+
